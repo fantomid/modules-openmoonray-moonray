@@ -12,7 +12,7 @@ target_sources(${target}
 
 target_link_libraries(${target}
     PRIVATE
-        ${PROJECT_NAME}::rendering_rndr      
+        ${PROJECT_NAME}::rendering_rndr
         McrtDenoise::denoiser  
         SceneRdl2::render_logging
         SceneRdl2::render_util
